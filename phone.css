@@ -1,0 +1,359 @@
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .header-row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    
+    .row-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    
+    .logo {
+        width: 70%;
+        height: 130%;
+    }
+    
+    .bars {
+        width: 13%;
+        height: 5vh;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+    }
+
+    .al{
+        width: auto;
+        display: none;
+    }
+
+    .eng{
+        width: auto;
+        display: none;
+    }
+
+    .row-language{
+        position: absolute;
+    }
+
+    .nav{
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav-left{
+        display: none;
+    }
+
+    .nav-right{
+        width: 100%;
+        height: 100%;
+        margin-left: -13rem;
+    }
+
+    .nav-ul{
+        width: 300%;
+    }
+
+    .hero{
+        width: 100%;
+    }
+
+    .hero-row{
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .zgjidhje-digjitale{
+        width: 100%;
+        height: 45%;
+    }
+
+    .zgjidhje-digjitale h4{
+        font-size: 1.2rem;
+    }
+
+    .zgjidhje-h1{
+        width: 170%;
+        font-size: 2.1rem;
+    }
+
+    .row-project{
+        width: 100%;
+        height: 100%;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .title h2{
+        font-size: 1.8rem;
+    }
+
+    .title p{
+        font-size: 0.9rem;
+    }
+
+    .row-services{
+        width: 100%;
+    }
+
+    .card-img-top{
+        width: 40px;
+    }
+
+    .procesi{
+        width: 100%;
+    }
+
+    .title-procesi{
+        width: 100%;
+    }
+
+    .title-procesi h2{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .circle{
+        width: 170px;
+        height: 170px;
+        border-bottom: 1px solid #c1c1c5;
+    }
+
+    .circle1{
+        margin: 2rem;
+    }
+
+    .procesi-card p{
+        width: 69%;
+        font-size: 1.1rem;
+    }
+
+    .website{
+        width: 100%;
+    }
+
+    .website-title{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .website-title h1{
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .card-website{
+        width: 140%;
+    }
+
+    .project-title{
+        width: 100%;
+        text-align: center;
+    }
+
+    .project-title h1{
+        font-size: 2.5rem;
+    }
+
+    .project-card{
+        width: 100%;
+        height: auto;
+    }
+
+    .project-text{
+        width: 100%;
+        height: 93%;
+    }
+
+    .pse{
+        height: 100%;
+    }
+
+    .pse-row{
+        height: 100%;
+    }
+
+    .pse-card{
+        width: 130%;
+        padding: 2rem;
+    }
+
+    .pse-icon{
+        font-size: 6rem;
+    }
+
+    .pse-text{
+        width: 100%;
+    }
+
+    .pse-text h2{
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .pse-text p{
+        font-size: 0.95rem;
+    }
+
+    .Industrite{
+        width: 100%;
+        height: auto;
+    }
+
+    .industrite-title h1{
+        font-size: 2.2rem;
+    }
+
+    .industrite-row{
+        width: 100%;
+        height: 100%;
+    }
+
+    .text p{
+        font-size: 0.9rem;
+    }
+
+    .teknologjite-text p{
+        font-size: 1rem;
+    }
+
+    .abonohu{
+        width: 100%;
+    }
+
+    .abonohu-row{
+        width: 100%;
+    }
+
+    .abonohu-card{
+        width: 80%;
+        margin-right: -1.5rem;
+    }
+
+    .abonohu-p{
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    .kush{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .kush-row{
+        width: 100%;
+        height: 100%;
+    }
+
+    .kush-right{
+        width: 100%;
+        height: 80%;
+    }
+
+    .kush-left{
+        width: 20%;
+        height: 60%;
+    }
+
+    .last-project{
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+
+    .faq-title h1{
+        font-size: 2.2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .faq-card-top-text h4{
+        font-size: 1.2rem;
+    }
+
+    .faq-card-bottom p{
+        font-size: 0.9rem;
+    }
+
+    .contact{
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-row{
+        width: 100%;
+        height: 100%;
+    }
+
+    .partner{
+        width: 100%;
+        height: 20%;
+    }
+
+    .partner h2{
+        margin-bottom: 2rem;        
+    }
+
+    .form-partner{
+        width: 480%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-partner form{
+        width: 120%;
+        height: 100%;
+        margin-left: 2rem;
+    }
+
+    .footer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #img-logo{
+        width: 100%;
+        height: 40%;
+        margin-left: -0.09rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #img-logo img{
+        width: 130%;
+        height: 40%;
+    }
+
+    .footer-bottom{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .shfletoni{
+        margin-bottom: 1rem;
+    }
+}

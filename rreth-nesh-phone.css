@@ -1,0 +1,211 @@
+@media screen and (max-width: 480px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    header {
+        width: 100%;
+        height: 20vh;
+    }
+    
+    .header-row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    
+    .row-2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    
+    .logo {
+        width: 70%;
+        height: 100%;
+    }
+    
+    .bars {
+        width: 13%;
+        height: 5vh;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+    }
+
+    .row-language{
+        position: absolute;
+    }
+
+    .al{
+        width: auto;
+        display: none;
+    }
+
+    .eng{
+        width: auto;
+        display: none;
+    }
+
+    .nav{
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .nav-left{
+        display: none;
+    }
+
+    .nav-right{
+        width: 100%;
+        height: 100%;
+        margin-left: -13rem;
+    }
+
+    .nav-ul{
+        width: 300%;
+    }
+
+    .hero{
+        width: 100%;
+        background-size: 140% 100%;
+    }
+
+    .hero-row{
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 3rem;
+    }
+    
+    .hero-text p{
+        width: 100%;
+    }
+
+    .rreth-nesh{
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+
+    .why-images{
+        width: 100%;
+    }
+
+    .img-why1 img{
+        width: 100%;
+        height: 550px;
+        border-top-left-radius: 4rem;
+        border-top-right-radius: 4rem;
+        border-bottom-left-radius: 4rem;
+        margin-left: 3rem;
+    }
+
+    .img-why2 img{
+        width: 200px;
+        height: 250px;
+        border-top-left-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .img-why3 img{
+        width: 500px;
+        height: 280px;        
+        border-top-right-radius: 3rem;
+        border-bottom-left-radius: 3rem;
+        border-bottom-right-radius: 3rem;
+    }
+
+    .why-right{
+        margin-bottom: 2rem;
+        height: 50vh;
+    }
+
+    .why-right p{
+        font-size: 1rem;
+    }
+
+    .misioni{
+        width: 100%;
+        height: auto;
+    }
+
+    .misioni-right{
+        height: 80vh;
+        margin-left: -10px;
+    }
+
+    .misioni-right h5{
+        width: 104%;
+    }
+
+    .misioni-right h1{
+        width: 104%;
+        font-size: 1.7rem;
+    }
+
+    .row-misioni{
+        width: 100%;
+        height: auto;
+        margin-left: 5rem;
+    }
+
+    .bg-dark{
+        height: 45%;
+    }
+
+    .bg-dark p{
+        font-size: 0.98rem;
+    }
+    
+    .na-kontaktoni-card{
+        width: 100%;
+    }
+
+    .icon{
+        width: 20%;
+    }
+
+    .footer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #img-logo{
+        width: 100%;
+        height: 40%;
+        margin-left: -0.09rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #img-logo img{
+        width: 130%;
+        height: 40%;
+    }
+
+    .footer-bottom{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .shfletoni{
+        margin-bottom: 1rem;
+    }
+}

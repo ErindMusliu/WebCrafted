@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins";
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 19vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 100;
+    background-color: white;
+    border-bottom: 1px solid #c1c1c5;
+    position: sticky;
+    top: 0;
+}
+
+.header-row{
+    z-index: 4;
+    background-color: white;
+}
+
+.bars{
+    width: 18%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+
+.bars-1{
+    width: 100%;
+    height: 11%;
+    background-color: #1d1d1d;
+    transition: all 0.9s;
+}
+
+.bars1-js{
+    position: absolute;
+    top: 18px;
+    transform: rotate(40deg);
+    transition: all 0.9s;
+}
+
+.bars-2{
+    width: 70%;
+    height: 11.1%;
+    background-color: #1d1d1d;
+    transition: all 0.9s;
+}
+
+.bars2-js{
+    position: absolute;
+    left: 100px;
+    transition: all 1.9s;
+}
+
+.bars-3{
+    width: 100%;
+    height: 11%;
+    background-color: #1d1d1d;
+    transition: all 0.9s;
+}
+
+.bars3-js{
+    position: absolute;
+    top: 18px;
+    transform: rotate(-40deg);
+    transition: all 0.9s;
+}
+
+.nav{
+    width: 100%;
+    height: 85vh;
+    transform: translateY(-860px);
+    opacity: 2;
+    z-index: 11;
+    transition: all 0.7s;
+    background-color: white;
+    position: sticky;
+    top: 115px;
+}
+
+.nav-js{
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 0.7s;
+}
+
+.list-group li a:hover{
+    font-weight: bold;
+    transition: all 0.1s;
+}
+
+.nav-left{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(img/about\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.na-kontaktoni{
+    height: 7vh;
+}
+
+.facebook{
+    width: 50px;
+    height: 50px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    width: 100%;
+    height: 83vh;
+    background-color: #4d4d4d;
+    position: absolute;
+    top: 122px;
+    z-index: -11;
+}
+
+.hero-row{
+    width: 100%;
+    height: 100%;
+}
+
+.zgjidhje-digjitale{
+    height: 40%;
+}
+
+.zgjidhje-h1{
+    font-size: 2.5rem;
+}
+
+.row-project{
+    overflow: hidden;
+}
+
+.project-img img{
+    width: 100%;
+}
+
+.sherbimet{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    width: 60%;
+    height: 35vh;
+}
+
+.title h2{
+    font-size: 2.2rem;
+}
+
+.title p{
+    width: 95%;
+    color: #595959;
+    font-size: 1.1rem;
+}
+
+.card{
+    width: 80%;
+    height: 100vh;
+    align-items: center;
+}
+
+.card img{
+    width: 190px;
+}
+
+.row-services{
+    width: 80%;
+    height: auto;
+}
+
+.card-body{
+    width: 100%;
+}
+
+.procesi{
+    height: auto;
+}
+
+.title-procesi{
+    height: 25vh;
+}
+
+.title-procesi h2{
+    width: 44%; 
+    font-size: 2.5rem;
+}
+
+.title-procesi-eng{
+    height: 25vh;
+}
+
+.title-procesi-eng h2{
+    width: 50%; 
+    font-size: 2.5rem;
+}
+
+.circle{
+    width: 210px;
+    height: 210px;
+    background-color: #1d1d1d;
+    box-shadow: 0px 0px 48px #1d1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle i{
+    font-size: 8rem;
+}
+
+.procesi-card p{
+    width: 40%; 
+    font-size: 1.1rem;
+}
+
+.website{
+    width: 100%;
+    height: auto;
+    background-color: #999999;
+}
+
+.website-title{
+    height: 15vh;
+}
+
+.website-title h1{
+    font-size: 3.5rem;
+}
+
+.website-row{
+    width: 70%;
+    height: auto;
+}
+
+.card-website{
+    width: 86%;
+    height: 80vh;
+    padding: 0.6rem;
+    background-color: #fafafa;
+}
+
+.card-website .card-body h2{
+    width: 105.6%;
+    margin: auto;
+    margin-left: -0.55rem;
+}
+
+.project{
+    width: 100%;
+    height: auto;
+}
+
+.project-title{
+    width: 70%;
+    height: 20vh;
+}
+
+.project-title h1{
+    font-size: 3rem;
+}
+
+.dancing-script{
+    font-family: "Dancing Script";
+}
+
+.project-card{
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -450px;
+    transition: all 0.8s;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 4;
+}
+
+.project-card:hover .project-text{
+    top: 0px;
+    transition: all 0.8s;
+}
+
+.pse{
+    width: 100%;
+    height: auto;
+    background-color: #353535;
+}
+
+.pse-title{
+    height: 15vh;
+    font-size: 3rem;
+}
+
+.pse-row{
+    width: 95%;
+    height: 100vh;
+}
+
+.pse-icon{
+    font-size: 9rem;
+}
+
+.industrite{
+    width: 100%;
+    height: auto;
+}
+
+.industrite-title{
+    height: 14vh;
+}
+
+.industrite-row{
+    width: 80%;
+    height: auto;
+}
+
+.col-cards{
+    height: auto;
+}
+
+.col-card{
+    background-color: #4E4D4D;
+}
+
+.teknologjite{
+    width: 100%;
+    height: auto;
+}
+
+.teknologjite-title{
+    height: 20vh;
+}
+
+.teknologjite-row{
+    width: 95%;
+}
+
+.teknologjite-img{
+    width: 100%;
+    height: 50%;
+}
+
+.teknologjite-text p{
+    font-size: 1.25rem;
+}
+
+.abonohu{
+    width: 100%;
+    height: 80vh;
+}
+
+.abonohu-card{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/abonohu.jpg);
+    background-size: 100% 100%;
+}
+
+.abonohu-card h1{
+    font-size: 3rem;
+}
+
+.abonohu-p{
+    color: #C1C1C9;
+    width: 75%;
+}
+
+.kush{
+    width: 100%;
+    height: 70vh;
+}
+
+.kush-row{
+    width: 80%;
+    height: 90%;
+}
+
+.image1{
+    width: 550px; 
+    height: 400px; 
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    background: linear-gradient(rgba(87,87,87,0.7),rgba(87,87,87,0.7)), url(img/about.jpg);
+    background-size: 100% 150%;
+    overflow: hidden;
+}
+
+.kush-right h1{
+    font-size: 3rem;
+}
+
+.kush-right p{
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+.faq{
+    width: 100%;
+    height: auto;
+}
+
+.faq-title{
+    height: 19vh;
+}
+
+.faq-row{
+    width: 95%;
+    height: auto;
+}
+
+.faq-card{
+    width: 100%;
+    height: 14vh;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.faq-card-top{
+    width: 100%;
+    height: 100%;
+}
+
+.faq-card-bottom{
+    width: 100%;
+    height: 12vh;
+    padding-left: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    display: none;
+    position: absolute;
+    bottom: -4.5rem;
+}
+
+.faq-card-bottom-js{
+    display: flex;
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: #4f4f4f;
+}
+
+.contact-row{
+    width: 100%;
+    height: 100vh;
+}
+
+.contact-row p{
+    font-weight: 300;
+}
+
+#input{
+    color: #c1c1c5;
+}
+
+#input::placeholder,#mesazhi::placeholder{
+    color: #C1C1C5;
+}
+
+#arsyeja{
+    color: #c1c1c5;
+}
+
+#mesazhi{
+    color: #c1c1c5;
+}
+
+.form-partner-row{
+    width: 100%;
+    height: 90vh;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+}
+
+#img-logo{
+    margin-left: 10rem;
+    overflow: hidden;
+}
+
+#img-logo img{
+    width: 1000px;
+    height: 400px;
+}
+
+.shfletoni{
+    width: auto;
+}
+
+.shfletoni h3{
+    font-family: Zen Dots;
+    font-size: 2.1rem;
+}
+
+.footer-bottom{
+    height: auto;
+}
+
+.shfletoni-ul li a{
+    color: #8B8B8B;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.kontakt{
+    width: auto;
+    height: 28vh;
+}
+
+.kontakt h3{
+    font-family: Zen Dots;
+    font-size: 2.1rem;
+}
+
+.kontakt a{
+    color: #8B8B8B;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.kontakt button{
+    width: 70%;
+    height: 8vh;
+    font-size: 1.2rem;
+    margin: auto;
+    position: relative;
+}
+
+.cricle-kontakt{
+    width: 40px; 
+    height: 40px; 
+    background-color: white; 
+    border-radius: 50%;
+    transition: all 0.6s;
+}
+
+.kontakt button:hover .cricle-kontakt{
+    width: 95%;
+    height: 90%;
+    transition: all 0.6s;
+    border-radius: 9999px;
+    position: absolute;
+    left: 5px;
+}
+
+.copyright{
+    width: 40%;
+    border-top: 3px solid #c1c1c5;
+}
+
+.copyright p{
+    font-size: 1.2rem;
+    color: #8B8B8B;
+}
